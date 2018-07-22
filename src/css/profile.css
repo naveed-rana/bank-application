@@ -1,0 +1,80 @@
+#navs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+#navs li {
+    float: left;
+}
+
+#navs li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navs li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#navs li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+    padding: 5px ;
+}
+.margins{
+    margin-top: 20px;
+}
+.pad{
+    padding-bottom: 400px;
+}
+.pad1{
+    padding-bottom: 200px;
+}
+.message{
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+#otheracount{
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 40px;
+}
+.loginmessage{
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    background-color:red;
+    color: white;
+    text-align: center;
+}
+.btns{
+  margin: 10px;
+  padding: 10px;
+}
+.btns1{
+    width: 100%;
+    margin: 10px;
+  padding: 10px;
+}
+.marginstop{
+    margin-top:70px;
+}
